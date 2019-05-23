@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  ShotSpotter
 //
-//  Created by Developer on 5/22/19.
+//  Created by Jonah Witcig on 5/22/19.
 //  Copyright © 2019 University of Missouri. All rights reserved.
 //
 

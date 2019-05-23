@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		8BBFD140229633060078B0F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBFD13F229633060078B0F8 /* AppDelegate.swift */; };
-		8BBFD142229633060078B0F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBFD141229633060078B0F8 /* ViewController.swift */; };
+		8BBFD142229633060078B0F8 /* SpottingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBFD141229633060078B0F8 /* SpottingsViewController.swift */; };
 		8BBFD145229633060078B0F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BBFD143229633060078B0F8 /* Main.storyboard */; };
 		8BBFD147229633070078B0F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BBFD146229633070078B0F8 /* Assets.xcassets */; };
 		8BBFD14A229633070078B0F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BBFD148229633070078B0F8 /* LaunchScreen.storyboard */; };
+		8BBFD1522296348B0078B0F8 /* ShotSpotting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBFD1512296348B0078B0F8 /* ShotSpotting.swift */; };
+		8BBFD154229634D90078B0F8 /* shot-spottings.json in Resources */ = {isa = PBXBuildFile; fileRef = 8BBFD153229634D90078B0F8 /* shot-spottings.json */; };
+		8BBFD156229636EC0078B0F8 /* SpottingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBFD155229636EC0078B0F8 /* SpottingViewController.swift */; };
+		8BBFD158229653F10078B0F8 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBFD157229653F10078B0F8 /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8BBFD13C229633060078B0F8 /* ShotSpotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShotSpotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BBFD13F229633060078B0F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8BBFD141229633060078B0F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8BBFD141229633060078B0F8 /* SpottingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpottingsViewController.swift; sourceTree = "<group>"; };
 		8BBFD144229633060078B0F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BBFD146229633070078B0F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BBFD149229633070078B0F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BBFD14B229633070078B0F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BBFD1512296348B0078B0F8 /* ShotSpotting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotSpotting.swift; sourceTree = "<group>"; };
+		8BBFD153229634D90078B0F8 /* shot-spottings.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "shot-spottings.json"; sourceTree = "<group>"; };
+		8BBFD155229636EC0078B0F8 /* SpottingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpottingViewController.swift; sourceTree = "<group>"; };
+		8BBFD157229653F10078B0F8 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +63,12 @@
 			isa = PBXGroup;
 			children = (
 				8BBFD13F229633060078B0F8 /* AppDelegate.swift */,
-				8BBFD141229633060078B0F8 /* ViewController.swift */,
+				8BBFD141229633060078B0F8 /* SpottingsViewController.swift */,
+				8BBFD155229636EC0078B0F8 /* SpottingViewController.swift */,
+				8BBFD1512296348B0078B0F8 /* ShotSpotting.swift */,
+				8BBFD157229653F10078B0F8 /* Location.swift */,
 				8BBFD143229633060078B0F8 /* Main.storyboard */,
+				8BBFD153229634D90078B0F8 /* shot-spottings.json */,
 				8BBFD146229633070078B0F8 /* Assets.xcassets */,
 				8BBFD148229633070078B0F8 /* LaunchScreen.storyboard */,
 				8BBFD14B229633070078B0F8 /* Info.plist */,
@@ -123,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BBFD14A229633070078B0F8 /* LaunchScreen.storyboard in Resources */,
+				8BBFD154229634D90078B0F8 /* shot-spottings.json in Resources */,
 				8BBFD147229633070078B0F8 /* Assets.xcassets in Resources */,
 				8BBFD145229633060078B0F8 /* Main.storyboard in Resources */,
 			);
@@ -135,8 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BBFD142229633060078B0F8 /* ViewController.swift in Sources */,
+				8BBFD1522296348B0078B0F8 /* ShotSpotting.swift in Sources */,
+				8BBFD142229633060078B0F8 /* SpottingsViewController.swift in Sources */,
+				8BBFD158229653F10078B0F8 /* Location.swift in Sources */,
 				8BBFD140229633060078B0F8 /* AppDelegate.swift in Sources */,
+				8BBFD156229636EC0078B0F8 /* SpottingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

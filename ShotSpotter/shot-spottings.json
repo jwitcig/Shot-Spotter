@@ -1,0 +1,93 @@
+[
+    {
+        "Type": "Firecracker",
+        "ID": 139820,
+        "Date": "30-Dec-14",
+        "Time": "23:35:35",
+        "Rnds": 1,
+        "CAD": "",
+        "Beat": "18X",
+        "Location 1": {
+            "latitude": 37.79152963,
+            "longitude": -122.2411301
+        }
+    },
+    {
+        "Type": "Multiple_Gunshots",
+        "ID": 139815,
+        "Date": "30-Dec-14",
+        "Time": "22:20:24",
+        "Rnds": 3,
+        "CAD": "",
+        "Beat": "35X",
+        "Location 1": {
+            "latitude": 37.75353735,
+            "longitude": -122.1635334
+        }
+    },
+    {
+        "Type": "Firecracker",
+        "ID": 139814,
+        "Date": "30-Dec-14",
+        "Time": "22:20:15",
+        "Rnds": 5,
+        "CAD": "",
+        "Beat": "35X",
+        "Location 1": {
+            "latitude": 37.75347631,
+            "longitude": -122.1635309
+        }
+    },
+    {
+        "Type": "Multiple_Gunshots",
+        "ID": 139813,
+        "Date": "30-Dec-14",
+        "Time": "22:16:42",
+        "Rnds": 3,
+        "CAD": 141230000000,
+        "Beat": "32Y",
+        "Location 1": {
+            "latitude": 37.74887273,
+            "longitude": -122.1596282
+        }
+    },
+    {
+        "Type": "Firecracker",
+        "ID": 139812,
+        "Date": "30-Dec-14",
+        "Time": "20:56:24",
+        "Rnds": 1,
+        "CAD": "",
+        "Beat": "32Y",
+        "Location 1": {
+            "latitude": 37.74750367,
+            "longitude": -122.1596407
+        }
+    },
+    {
+        "Type": "Multiple_Gunshots",
+        "ID": 139811,
+        "Date": "30-Dec-14",
+        "Time": "20:12:56",
+        "Rnds": 6,
+        "CAD": 1039,
+        "Beat": "27Y",
+        "Location 1": {
+            "latitude": 37.76856033,
+            "longitude": -122.1851731
+        }
+    },
+    {
+        "Type": "Other",
+        "ID": 139810,
+        "Date": "30-Dec-14",
+        "Time": "14:59:17",
+        "Rnds": 1,
+        "CAD": "",
+        "Beat": "26Y",
+        "Location 1": {
+            "latitude": 37.75651861,
+            "longitude": -122.1825141
+        }
+    }
+]
